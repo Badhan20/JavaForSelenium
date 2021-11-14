@@ -1,0 +1,64 @@
+Variable
+============================
+Variable is the name of memory location to store values. We use variable to store data and
+use the data when it is required. There are two types of variable: Local variable and Global variable
+
+Global variable: Define in the class level, not inside any method
+Local variable: Define inside method/block.
+
+****Facts*****
+-- Global variable contains Null/Default values.
+-- Local variable contains garbage values. 
+
+Data Types
+============================
+Data type is nothing but a keyword.
+There are two types of data:
+1. Primitive
+2. Non-Primitive
+
+Primitive
+-----------------------------
+Data Types		Default Value		Default Size
+-------------------------------------------------
+boolean			FALSE				1 bit
+char			'\u0000'			2 byte
+byte			0					1 byte
+short			0					2 byte
+int				0					4 byte
+long			0L					8 byte
+float			0.0f				4 byte
+double			0.0d				8 byte
+
+Non-Primitive
+-------------------------------
+String
+Arrays
+Classes
+Interfaces etc..
+
+
+=====INTERVIEW QUESTION==============
+1. Can we declare a value like char a=65?
+   -- Yes, we can. In that case,  the a will print the USINCODE table value for 65.
+   
+2. In which data type java store a fractional value?
+   -- Java always store a fractional value as double.
+   
+3. How can we convert a float value/define a float value without using double?
+   -- By type casting. float a = (float) 65.78.
+   -- By using 'f' in the value. float b=67.34f;
+   
+4. What will be the output for int x = (int) 65.34;
+   -- It will print only the value before the fraction. So, it will print 65
+   
+5. What is Casting? What are the types of casting?
+  -- To convert one data type into another data types is called casting.
+  There are two types of casting:
+   -> Down-Casting: Converting the higher data type to lower data type (float-->int)
+   -> Upper-Casting: Converting the lower data type to higher data type (float-->double)
+   
+6. Can we print a local value without initialization?
+  -- No, we can not. We must need to initialize value for a local variable before printing as the
+  local variable contains garbage value and java doesn't support garbage value.
+   
