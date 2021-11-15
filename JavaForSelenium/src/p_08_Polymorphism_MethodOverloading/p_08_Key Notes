@@ -1,0 +1,16 @@
+Polymorphism
+=========================
+Poly means many. Polymorphism means one thing in multiple forms.
+
+There are two types of polymorphism:
+1. Compile time/Early binding (Overloading)
+2. Run time/Late binding (Overriding)
+
+Method Overloading
+----------------------------
+Method can be overload if and only if method has the same name but with different signatures.
+
+Signatures depends on:
+-- Number of arguments
+-- Type of arguments
+-- Order of arguments
