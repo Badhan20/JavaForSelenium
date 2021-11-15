@@ -1,0 +1,36 @@
+Class, Objects and Methods
+======================================
+Class
+---------------
+Class is an entity which binds data member (data types) and member methods into single unit. Class
+is a best example of encapsulation.
+In other words, class is nothing but a blueprint or template for creating different objects which
+defines it's properties and behaviors.
+
+
+Method
+------------------
+Method is just a block of java statement which performs a particular task.
+Methods can be called using (.) dot operator
+
+Syntax:
+AccessSpecifier static/non-static ReturnType MethodName()
+{
+
+}
+
+
+Object
+--------------------------
+An entity that has state and behavior is known as an object.
+
+Real world entity (Badhan)
+-- State> name, phone, DL etc...
+-- Behavior> biking(), swimming(), singing() etc...
+
+Syntax:
+ClassName ObjectName = new ClassName();
+
+******FACTS*****
+-- Non-static method called through object using (.) dot operator
+-- Static method called using ClassName and (.) dot operator
