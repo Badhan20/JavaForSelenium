@@ -1,0 +1,9 @@
+String Class
+=======================
+String class is a class belongs to java.lang.String. String class has many in-built methods which
+will help to perform operations on Strings like comparing, converting, split, concatenate and so 
+on...
+Methods
+----------------
+-- startswith()
+-- endswihth()
