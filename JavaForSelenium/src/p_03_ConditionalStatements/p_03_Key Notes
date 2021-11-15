@@ -1,0 +1,79 @@
+Conditional/Decision Statement
+================================
+Conditional/Decision statement gives the power to take decision when to execute and what to be done
+based on the condition
+There are a few decision statement:
+-- if
+-- if..else
+-- Nested if..else
+-- switch
+
+if
+-------------------------
+It checks the conditions if the condition is true during the execution of code
+
+Syntax:
+if(condition)
+{
+	code
+}
+
+
+if...else
+---------------------------
+Execute the if block if the condition is true, otherwise execute the else block
+
+Syntax:
+if(condition)
+{
+	code
+}
+else
+{
+	code
+}
+
+
+Nested if...else
+---------------------------
+Check every block until the condition is satisfied and execute if block is true, 
+otherwise execute the else block
+
+Syntax:
+if(condition)
+{
+	code
+}
+else if(condition)
+{
+	code
+}
+else
+{
+	code
+}
+
+
+Switch statement
+-------------------------------
+Allows to match with multiple cases and check if the particular case if satisfied
+
+Syntax:
+switch(expression){
+		case value:
+					code
+					break;
+
+		case value:
+					code
+					break;
+					
+		default;
+}
+
+******FACTS*****
+-- Data type should be same for comparison
+-- Can have multiple cases
+-- Can use only Integer, String and Enum
+-- Break is optional but if not provided it will check all cases till the end
+-- Default is optional
