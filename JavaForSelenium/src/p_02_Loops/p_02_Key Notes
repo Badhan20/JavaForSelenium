@@ -1,0 +1,14 @@
+Loops
+============================
+In programming language loop is which allow to run certain piece of code multiple times.
+
+There are 4 types of for loop:
+-- For Loop
+-- While Loop
+-- Do while Loop
+-- Enhanced For Loop/For-each Loop (Added after java-1.5)
+
+
+For Loop
+------------------------------------
+Widely used
