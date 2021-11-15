@@ -12,3 +12,32 @@ There are 4 types of for loop:
 For Loop
 ------------------------------------
 Widely used
+
+Syntax:
+for(initialize; condition; increment/decrement)
+{
+	code/logic
+}
+
+
+While Loop
+--------------------------------------
+It will only execute if the condition is true
+
+Syntax:
+while(condition)
+{
+	code/logic
+	increment/decrement
+}
+
+
+Do..while Loop
+-----------------------------------------
+Same as while loop but in this loop code or logic will execute at least once.
+
+Syntax:
+do{
+
+}
+while();
