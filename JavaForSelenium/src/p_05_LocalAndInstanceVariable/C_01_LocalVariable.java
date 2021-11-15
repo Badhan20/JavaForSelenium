@@ -6,7 +6,7 @@ public class C_01_LocalVariable {
 	
 		//Block 
 		int x=10;
-		System.out.println("The value of x: "+x);
+		System.out.println("The value of x is: "+x);
 		
 		C_01_LocalVariable obj = new C_01_LocalVariable();
 		

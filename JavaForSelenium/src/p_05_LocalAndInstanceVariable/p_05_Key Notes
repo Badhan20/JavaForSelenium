@@ -19,4 +19,5 @@ Called instance variable because there values are unique to each instance of cla
 ***FACTS***
 -- THERE IS NO CONCEPT OF GLOBAL VARIABLE IN JAVA
 -- If you do't initialize, java will assign the default values for instance variable.
+-- To use instance variable in a static method/class, need to create an object
 
