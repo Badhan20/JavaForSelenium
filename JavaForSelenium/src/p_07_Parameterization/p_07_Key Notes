@@ -1,0 +1,12 @@
+Passing Parameter in Method and Return Values
+================================================
+Parameter
+------------------
+To make a program dynamic, we can pass parameter while calling methods.
+
+Parameter can be compiled time and run time as well.
+
+Syntax:
+public void sum(int a, int b){
+		int c=a+b;
+}
