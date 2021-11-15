@@ -1,0 +1,22 @@
+Local and Instance Variable
+=======================================
+Local variable
+-----------------------------
+Local variables are the variable which are declared within method, constructor or blocks. They are
+created once method, constructor or block is invoked.
+
+***FACTS****
+It is mandatory to initialize the variable before using, otherwise we will not able to compile the
+code.
+
+
+Instance Variable
+---------------------------------------
+Instance variable are the variable which are declared in class but outside the method, constructor
+and blocks.
+Called instance variable because there values are unique to each instance of class.
+
+***FACTS***
+-- THERE IS NO CONCEPT OF GLOBAL VARIABLE IN JAVA
+-- If you do't initialize, java will assign the default values for instance variable.
+
