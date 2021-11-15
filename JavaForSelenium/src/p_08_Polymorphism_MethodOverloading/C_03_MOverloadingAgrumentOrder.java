@@ -1,6 +1,6 @@
 package p_08_Polymorphism_MethodOverloading;
 
-public class C_03_OverloadingAgrumentType {
+public class C_03_MOverloadingAgrumentOrder {
 
 	public void sum(int a, double b) {
 		double c=a+b;
@@ -14,7 +14,7 @@ public class C_03_OverloadingAgrumentType {
 	
 	public static void main(String[] args) {
 		
-		C_03_OverloadingAgrumentType obj = new C_03_OverloadingAgrumentType();
+		C_03_MOverloadingAgrumentOrder obj = new C_03_MOverloadingAgrumentOrder();
 		obj.sum(20, 10.5);
 		obj.sum(10.6, 10);
 

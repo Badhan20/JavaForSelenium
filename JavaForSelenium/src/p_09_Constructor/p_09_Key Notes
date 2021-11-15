@@ -1,0 +1,31 @@
+Constructor and Constructor Overloading
+===========================================
+Constructor
+---------------------------------
+Constructor is a block of code which is used to construct/initialize the value.
+In java, constructor is used to initialize the value.
+
+There are two types of constructor:
+1. Default Constructor (No-argument)
+2. Parameterized Constructor (Have arguments)
+
+****FACTS****
+-- Has the same name as class name
+-- Doesn't have any return type
+-- Get invoked automatically by creating the object
+-- Can not be static, final, abstract, and Synchronized
+
+Constructor overloading
+--------------------------------------
+Constructor can be overloaded by using the same constructor multiple times with
+the different signatures.
+
+Signatures depends on:
+-- Number of arguments
+-- Type of arguments
+-- Order of arguments
+
+====INTERVIEW QUESTION======
+1. Explain the use of constructor in Selenium.
+  -- WebDriver driver = new ChromeDriver (), here there shows a couple of option for the
+  ChromeDriver() and based on that the object works.
