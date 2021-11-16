@@ -1,7 +1,7 @@
 Interface
 ================================================
 Interface is a special class which contains variables and which can not be changed. It contains the
-method declaration only not the method body.
+method declaration only not the method body. INTERFACE IS 100% ABSTRACT CLASS.
 
 
 ****FACTS****
@@ -18,3 +18,12 @@ Interface_Name
 -- Child class reference and Child class object --> all the methods of Base and Child class
 -- Base class reference and Base class object --> Can not create object of an interface
 -- Base class reference and Child class object --> all the methods of Base class only
+
+
+1. Why we can not object create of an interface?
+   -- If the class is not fully implemented, we will not allow to create object.In interface we
+   don't have even one method which is fully implemented as it's 100% abstracted.
+   
+ ===In Selenium, WebDriver is Interface===
+      
+ 

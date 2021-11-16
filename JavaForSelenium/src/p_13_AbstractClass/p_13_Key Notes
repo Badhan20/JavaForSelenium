@@ -1,0 +1,26 @@
+Abstract Class
+=================================================
+Abstraction
+--------------
+Abstraction is a process of showing the essential features and hiding the background details/the
+implementation.
+
+
+Abstract Class
+----------------------
+-- Any class with abstract keyword is know as Abstract class.
+-- In a class if a single method is abstract method, then the class will be abstract class.
+-- An abstract class can contains both abstract and non-abstract methods.
+-- Can not create object of abstract class.
+
+
+****INTERVIEW QUESTIONS****
+-- Child class reference and Child class object --> all the methods of Base and Child class
+-- Base class reference and Base class object --> Can not create object of an interface
+-- Base class reference and Child class object --> all the methods of Base class only
+
+1. Why we can not object create of an Abstract class?
+   -- If the class is not fully implemented, we will not allow to create object.In abstract class,
+   the abstract method not implemented.
+   
+  ===In Selenium, By is an abstract class===
