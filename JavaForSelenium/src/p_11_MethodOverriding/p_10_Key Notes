@@ -1,0 +1,7 @@
+Method Overriding/Dynamic Method Dispatch
+==========================================
+When we try to override certain features of a method is called method overriding. It's a part
+of run time polymorphism or we can say dynamic binding.
+
+When parent class and child class has the same method with similar signature, it is known as
+method overriding.
