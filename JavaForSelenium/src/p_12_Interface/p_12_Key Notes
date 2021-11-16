@@ -2,7 +2,7 @@ Interface
 ================================================
 Interface is a special class which contains variables and which can not be changed. It contains the
 method declaration only not the method body. INTERFACE IS 100% ABSTRACT CLASS.
-
+Example: Calculators basic functions
 
 ****FACTS****
 -- It has a static constants and abstract methods only.

@@ -4,7 +4,7 @@ Abstraction
 --------------
 Abstraction is a process of showing the essential features and hiding the background details/the
 implementation.
-
+Example: Employee details for concerned department
 
 Abstract Class
 ----------------------
