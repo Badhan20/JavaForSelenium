@@ -1,0 +1,15 @@
+Inheritance
+=======================================
+Inheritance is a basic concept of OOP which will allow to use parent class features.
+Using inheritance can use parent class variables and methods using child class object.
+
+***FACTS***
+Inheritance is used for:
+-- Code re-usability
+-- No code duplication
+-- For method overriding
+
+****INTERVIEW QUESTIONS****
+-- Child class reference and Child class object --> all the methods of Base and Child class
+-- Base class reference and Base class object --> all the methods of Base class only
+-- Base class reference and Child class object --> all the methods of Base class only
