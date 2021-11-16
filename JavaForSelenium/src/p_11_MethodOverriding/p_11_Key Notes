@@ -5,3 +5,9 @@ of run time polymorphism or we can say dynamic binding.
 
 When parent class and child class has the same method with similar signature, it is known as
 method overriding.
+
+
+****INTERVIEW QUESTIONS****
+-- Child class reference and Child class object --> all the methods of Base and Child class
+-- Base class reference and Base class object --> all the method of Base class only
+-- Base class reference and Child class object --> Override only

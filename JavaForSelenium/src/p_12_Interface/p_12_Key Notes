@@ -1,0 +1,20 @@
+Interface
+================================================
+Interface is a special class which contains variables and which can not be changed. It contains the
+method declaration only not the method body.
+
+
+****FACTS****
+-- It has a static constants and abstract methods only.
+
+Syntax:
+Interface_Name
+{
+	variables;
+	methods();
+}
+
+****INTERVIEW QUESTIONS****
+-- Child class reference and Child class object --> all the methods of Base and Child class
+-- Base class reference and Base class object --> Can not create object of an interface
+-- Base class reference and Child class object --> all the methods of Base class only
