@@ -1,0 +1,33 @@
+Super Keyword/Reference Variable
+=================================
+Super Keyword
+------------------
+-- Super is one of the reserved keywords in java. Also called as reference variable.
+-- Super keyword can be used with variable, methods and constructor
+-- Super keyword is used during inheritance concept.
+
+Super Keyword Usages
+----------------------------------
+1. With variable - When parent class and child class has the same variable with same
+   name and if child class want to access the parent class variable, in that case will
+   use the super keyword.
+   super.keyword
+
+2. With method - When parent class and child class has the same method name and want to
+   call the parent class method, in that case will use the super keyword.
+   super.method()
+   super.method(a,b)
+
+3. With constructor - Whenever need to call base class constructor from child class, can
+   use super()
+   super()
+   super(a,b)
+   
+***NEED TO REMEMBER***
+-- super() should be the first statement in the child class constructor
+-- If do not call base class constructor, then by default java internally calls base class
+   constructor with zero argument
+-- If base class does't have zero argument constructor, the java will throws compile time
+   exception.
+-- When child class calls constructor of parent class and again if parent class calls the
+   constructor of grandparent class, then this process is called as constructor chaining. 
