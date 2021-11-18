@@ -1,0 +1,34 @@
+Wrapper Class
+============================================================
+Wrapper classes are the predefined class in Java which can contain primitive data type. In simple words
+we can wrap a primitive value to wrapper class.
+
+Primitive Type				Wrapper Class
+--------------------------------------------
+boolean						Boolean
+byte						Byte
+int							Integer
+short						Short
+long						Long
+float						Float
+double						Double
+char						Character
+
+
+***Facts***
+1. int a=100;
+   -- a is a variable, int is data type and 100 is value of a
+2. Integer b=200;
+   -- b is a reference/object of Integer class with value 200
+   
+   
+********INTERVIEW QUESTION********
+1. What is parent class of all the wrapper classes?
+  -- For boolean and character> Object Class
+  -- For byte, int, short, long, float, double> Number Class
+
+2. When to use the wrapper class?
+  -- While using collection framework
+  -- To convert object to primitive data type
+  -- To convert primitive data type to object
+  -- Many libraries (Selenium, SpringBoot) in Java deal with objects, not primitive data types

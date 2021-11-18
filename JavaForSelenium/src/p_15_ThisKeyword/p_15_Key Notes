@@ -1,0 +1,23 @@
+This Keyword
+===================================================
+-- This keyword is one of the reserved keyword in Java
+-- This keyword is also known as reference variable that refers to current class object
+-- This keyword can be used with variable and constructor
+-- This keyword is used to minimize the ambiguity
+
+
+This Keyword Usages
+----------------------------------
+1. With variable - Use to refer current class instance variable
+
+2. With constructor - Using this() to invoke current class constructor
+
+
+*****INTERVIEW QUESTION*****
+1. Where do we use this keyword in Selenium with Constructor?
+  -- WebDriver driver = new ChromeDriver();
+  The first of selenium itself has this concept. When we are calling default constructor of chrome
+  driver, it is again internally calling one more constructor with two argument:
+  				-- Chrome Default Service and
+  				-- ChromeOptions
+  
