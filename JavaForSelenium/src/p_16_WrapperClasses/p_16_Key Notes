@@ -32,3 +32,17 @@ char						Character
   -- To convert object to primitive data type
   -- To convert primitive data type to object
   -- Many libraries (Selenium, SpringBoot) in Java deal with objects, not primitive data types
+  
+  
+  
+Boxing
+-------------------------------------------
+Conversion of primitive data type to corresponding object wrapper class. There are two type:
+  -- Boxing> When we use any method to convert
+  -- Auto Boxing> When java automatically do the process
+
+Unboxing
+----------------------------------------------
+Conversion of object wrapper class to corresponding primitive data type. There are two types:
+   -- Unboxing> When we use any method to convert
+   -- Auto-Unboxing> When java automatically do the process
