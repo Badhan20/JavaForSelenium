@@ -1,0 +1,12 @@
+Arrays
+=================================================================================================
+Array is a collection of similar data types.
+
+Syntax
+------------------------------------------
+dataType arrayName[] = new dataType[size];
+
+Limitations
+------------------------------
+1. Data Types
+2. Array Size
