@@ -1,0 +1,38 @@
+List in Java
+=================================================================================================
+Background
+----------------------------------------
+Collection
+----------------------
+- Collection is a dynamic data structure which is added after Java 1.5
+- Collections in java is a framework that provides an architecture to store and manipulate the
+  group of objects.
+- Searching, Sorting, Insertion, Manipulation, Deletion etc. operations can perform using collection
+
+- JAVA Collection frameworks provides many Interfaces and Classes:
+    1. Interfaces--> Set, List, Queue, Dequeue etc.
+    2. Classes--> ArrayList, Vector, LinkedList, HashSet, LinkedHashSet, TreeSet, PriorityQueue etc.
+    
+    
+List and ArrayList
+-----------------------------------------------------------------------
+List: Is an interface
+ArrayList: Is a class that implements List
+
+ArrayList
+--------------------------
+- Uses a dynamic array to store elements.
+- Can contain duplicate elements.
+- Maintains insertion order.
+- Allow random access based on the index number.
+- Manipulation is a bit slow, because a lot of shifting needs to be occurred if any element is
+  removed from the array list.
+  
+  
+Generic in Collection
+-------------------------------------------
+Allows to have only one type of object in collection. By using generic, to use another data type it
+gives a run-time error.
+
+--> Non-generic ArrayList: ArrayList obj = new  ArrayList();
+--> Generic ArrayList: ArrayList <Type> obj = new  ArrayList<Type>();

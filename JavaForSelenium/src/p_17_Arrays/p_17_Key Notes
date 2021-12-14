@@ -8,5 +8,5 @@ dataType arrayName[] = new dataType[size];
 
 Limitations
 ------------------------------
-1. Data Types
-2. Array Size
+1. Data Type - Fixed Type
+2. Array Size - Fixed Size
