@@ -1,0 +1,25 @@
+Map in Java
+=================================================================================================
+Map
+-----------------------------------------------------------
+- An interface in Java.
+- It supports Key-Value pairs.
+- Each key-value called as Entry.
+- Contains only unique keys.
+- Easy to manipulate on the basis of key.
+- Most used Map: HashMap, LinkedHashMap, TreeMap
+
+
+HashMap
+---------------------------------------------------
+- Class which implements the map interface.
+- May have one Null key and multiple null values.
+- Doesn't store value in order.
+
+LinkedHashMap
+---------------------------------------------------
+- Maintain the insertion order.
+
+TreeMap
+---------------------------------------------------
+- Maintain the ascending/descending order.
