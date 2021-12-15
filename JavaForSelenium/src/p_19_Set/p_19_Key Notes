@@ -1,0 +1,48 @@
+Set in Java
+=================================================================================================
+Background
+----------------------------------------
+Collection
+----------------------
+- Collection is a dynamic data structure which is added after Java 1.5
+- Collections in java is a framework that provides an architecture to store and manipulate the
+  group of objects.
+- Searching, Sorting, Insertion, Manipulation, Deletion etc. operations can perform using collection
+
+- JAVA Collection frameworks provides many Interfaces and Classes:
+    1. Interfaces--> Set, List, Queue, Dequeue etc.
+    2. Classes--> ArrayList, Vector, LinkedList, HashSet, LinkedHashSet, TreeSet, PriorityQueue etc.
+    
+Set
+-----------------------------------------------------------
+- An interface in Java which extends Collection interface.
+- Does not allow duplicate values.
+- Does not maintains insertion order by default.
+- Not allow random access based on the index number.
+
+
+HashSet, LinkedHashSet, TreeSet
+-----------------------------------------
+HashSet, LinkedHashSet, TreeSet are the classes which implements Set Interface.
+
+HashSet
+--------------------
+- Stores the element by using a mechanism called hashing. That means can not access using index.
+- Contains unique elements only.
+- Faster than list.
+
+LinkedHashSet
+--------------------
+- Similar to HashSet but maintains insertion order.
+
+TreeSet
+--------------------
+- Maintains ascending order.
+
+CONVERT SET INTO LIST
+-------------------------
+List <Type> object = new ArrayList <Type> (set);
+
+Use in Selenium
+----------------
+Handle multiple windows.

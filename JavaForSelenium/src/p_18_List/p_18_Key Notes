@@ -36,3 +36,8 @@ gives a run-time error.
 
 --> Non-generic ArrayList: ArrayList obj = new  ArrayList();
 --> Generic ArrayList: ArrayList <Type> obj = new  ArrayList<Type>();
+
+
+Use in Selenium
+----------------
+FindElements by, Select.
