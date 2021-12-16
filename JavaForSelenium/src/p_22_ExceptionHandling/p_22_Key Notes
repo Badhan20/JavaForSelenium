@@ -1,0 +1,30 @@
+Exception Handling in Java
+=================================================================================================
+Exception
+-------------------------------------
+- In java exception is an abnormal scenario which will stop the execution of the current program.
+- Exception is a class.
+
+There are two type of Exception:
+- Check Exception: Compile-time exception. Ex: IOExceptions, FileNotFoundExceptions, (Thread.sleep)
+- Unchecked Exception: Run-time exception. Ex: ArithmeticException, ArrayIndexOutOfBondException...
+
+Exception Handling
+--------------------------------------
+- Is a way to handle runtime/compile time errors. Main reason is to maintain the normal flow of the
+application.
+
+Syntax:
+-------------------
+Try{
+
+} catch(Exception_Class_Name)
+{
+
+}
+
+*****INTERVIEW QUESTION*****
+- Try block must be followed by try or finally block.
+- Dead Code: The code never get executed.
+- Exception can also be handle by throws keyword. Throws keyword used to declare an exception.
+
