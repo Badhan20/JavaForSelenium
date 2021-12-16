@@ -1,4 +1,4 @@
-package p_21_AccessModifiers_1;
+package p_21_AccessModifiers;
 
 class A{
 	

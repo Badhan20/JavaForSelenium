@@ -1,4 +1,4 @@
-package p_21_AccessModifiers_1;
+package p_21_AccessModifiers;
 
 public class C_03_Protected extends B{
 	
