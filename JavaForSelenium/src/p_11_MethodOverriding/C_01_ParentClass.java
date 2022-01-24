@@ -9,4 +9,8 @@ public class C_01_ParentClass {
 	public void show() {
 		System.out.println("I am in parent class show method");
 	}
+	
+	public void disp() {
+		System.out.println("I am in parent class disp method");
+	}
 }
